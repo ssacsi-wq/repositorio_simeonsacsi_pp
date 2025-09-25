@@ -10,9 +10,9 @@ public class Programa02 {
      //creando el objeto lectura
      Scanner lectura=new Scanner(System.in);
      //entrada de datos
-     System.out.print("Nombre de empleado:");
+     System.out.println("Nombre de empleado:");
      empleado=lectura.next();
-     System.out.print("Horas trabajadas:");
+     System.out.println("Horas trabajadas:");
      ht=lectura.nextDouble();
      System.out.print("Tarifa por hora:");
      th=lectura.nextDouble();
